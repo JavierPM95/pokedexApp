@@ -6,7 +6,6 @@ import { Image } from 'react-native';
 import Pokedex from '../screens/Pokedex'
 import Favorites from '../screens/Favorites'
 import Account from '../screens/Account'
-import PokemonSummary from '../screens/PokemonSummary';
 // import PokemonSummaryNav from './src/navigation/PokemonSummaryNav';
 
 const Tab = createBottomTabNavigator();
