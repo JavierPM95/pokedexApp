@@ -20,7 +20,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "Javier Prieto pokedex",
+      "package": "Javier.Prieto.Pokedex",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
