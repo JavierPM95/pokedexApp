@@ -64,7 +64,7 @@ const style = StyleSheet.create({
         position: 'absolute',
         bottom: 2,
         right: 2,
-        width: 90,
-        height: 90
+        width: 110,
+        height: 110
     }
 })

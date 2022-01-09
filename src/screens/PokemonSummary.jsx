@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { ActivityIndicator, StyleSheet, ScrollView } from 'react-native'
 import { getPokemonById } from '../api/pokemonApi';
-import Icon from 'react-native-vector-icons/FontAwesome5';
-import Header from '../components/pokemon/Header';
-import Stats from '../components/pokemon/Stats';
-import Types from '../components/pokemon/Types';
+import Header from '../components/Pokemon/Header';
+import Stats from '../components/Pokemon/Stats';
+import Types from '../components/Pokemon/Types';
+import Favorites from '../components/Pokemon/Favorites';
 
 export default function PokemonSummary({ route: { params }, navigation }) {
     const { id } = params;
@@ -13,12 +13,7 @@ export default function PokemonSummary({ route: { params }, navigation }) {
 
     useEffect(() => {
         navigation.setOptions({
-            headerRight: () => <Icon
-                name='heart'
-                color='#fff'
-                size={20}
-                onPress={() => console.log('favorite')}
-            />,
+            headerRight: () => <Favorites id={id} />,
             // headerLeft: () => (
             //     <Icon
             //     name='arrow-left'
