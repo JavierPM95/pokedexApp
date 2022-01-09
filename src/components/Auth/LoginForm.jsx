@@ -16,7 +16,7 @@ export default function LoginForm() {
             try {
                 setError('');
                 if (username !== user.userName || password !== user.password)
-                    throw { message: 'nombre de usuario o contraseña incorrecto' }
+                    throw { message: 'nombre de usuario o contraseña incorrecto. Intenta con rey_pm y 1234' }
 
                 login(userDetails)
             } catch (error) {
