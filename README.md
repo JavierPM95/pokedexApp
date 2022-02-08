@@ -1,6 +1,5 @@
-# Pokédex App #
-
-## Built with React Native with Expo. With Context and CustomHooks ##
+# Pokédex App ⚛ #
+PokeApp Built with React Native with Expo. Features developed using Context and CustomHooks ⚛
 
 ## First look ##
 #### Pokédex
